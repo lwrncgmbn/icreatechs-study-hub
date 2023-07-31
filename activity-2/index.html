@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>HTML Forms Assignment</title>
+  </head>
+  <body>
+    <!-- CONTACT US -->
+    <form action="#" method="POST">
+      <h1>Contact Us</h1>
+      <label for="name">Name: </label>
+      <input type="text" id="name" name="name" placeholder="Name" />
+      <label for="email">Email: </label>
+      <input type="email" id="email" name="email" placeholder="Email" />
+      <label for="message">Message: </label>
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10 "
+        placeholder="Message"
+      ></textarea>
+      <input type="submit" value="Submit" />
+    </form>
+
+    <!-- LOGIN -->
+    <form action="#" method="POST">
+      <h1>Login</h1>
+      <label for="username">Username: </label>
+      <input type="text" id="username" name="username" placeholder="Username" />
+      <label for="password">Password: </label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        placeholder="Password"
+      />
+      <input type="submit" value="Login" />
+    </form>
+
+    <!-- SURVEY FORM -->
+    <form action="#" method="POST">
+      <h1>Survey</h1>
+      <label for="surveyName">Name: </label>
+      <input type="text" id="surverName" name="surveyName" placeholder="Name" />
+      <label for="age">Age: </label>
+      <input type="number" id="age" name="age" placeholder="Age" />
+      <!-- For Gender -->
+      <label>Gender: </label>
+      <label for="gender"
+        ><input type="radio" name="gender" value="male" /> Male</label
+      >
+      <label for="gender"
+        ><input type="radio" name="gender" value="female" /> Female</label
+      >
+      <label for="gender"
+        ><input type="radio" name="gender" value="other" /> Other</label
+      >
+
+      <!-- Programming Languages -->
+      <label>Which programming languages do you know? </label>
+      <label for="language"
+        ><input type="checkbox" name="language" value="HTML" /> HTML</label
+      >
+      <label for="language"
+        ><input type="checkbox" name="language" value="CSS" /> CSS</label
+      >
+      <label for="language"
+        ><input type="checkbox" name="language" value="JavaScript" />
+        JavaScript</label
+      >
+      <label for="language"
+        ><input type="checkbox" name="language" value="Python" /> Python</label
+      >
+      <!-- Comment -->
+      <label for="comment">Comments: </label>
+      <textarea
+        name="comment"
+        id="comment"
+        cols="30"
+        rows="10"
+        placeholder="Comments"
+      ></textarea>
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
